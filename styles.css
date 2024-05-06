@@ -1,0 +1,139 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff; /* Cream background */
+}
+
+/* CSS for Navbar */
+header {
+  background-color: #f3e9e1; /* Cream header */
+  color: #333; /* Dark text */
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: #333; /* Dark text */
+  text-decoration: none;
+  padding: 10px 20px; /* Padding untuk meningkatkan area klik */
+  border-radius: 5px;
+  background-color: #f3e9e1; /* Cream background */
+}
+
+.menu li a:hover {
+  background-color: #ddd; /* Hover background color */
+}
+
+.profile a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #f3e9e1;
+}
+
+.profile a:hover {
+  background-color: #ddd;
+}
+
+
+main {
+  padding: 20px;
+}
+
+.profile-menu {
+  margin-left: auto;
+}
+
+/* Styles for other pages */
+
+/* About page */
+.about-content {
+  background-color: #f3e9e1; /* Cream background */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Contact page */
+.contact-form {
+  background-color: #f3e9e1; /* Cream background */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333; /* Dark button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Shop page */
+.product-card {
+  background-color: #f3e9e1; /* Cream background */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  color: #666; /* Light text */
+}
+
+.product-card button {
+  padding: 5px 10px;
+  background-color: #333; /* Dark button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Profile page */
+.profile-info {
+  background-color: #f3e9e1; /* Cream background */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
